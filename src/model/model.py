@@ -5,7 +5,6 @@ The neural-network model.
 Author:
     Yvan Satyawan <y_satyawan@hotmail.com>
 """
-import torch
 import torch.nn as nn
 
 

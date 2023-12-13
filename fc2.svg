@@ -1,0 +1,100 @@
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_0"
+        bias="-144"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -97 227 359 -420 -229 -36 -89 -27 -6 -165 256 74 119 -174 69
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_1"
+        bias="112"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        18 -60 -549 443 -171 95 -195 7 -377 374 72 2 -179 339 -23
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_2"
+        bias="-90"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        214 -60 271 -268 436 190 -365 -41 -186 -121 -126 -95 333 448 51
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_3"
+        bias="-54"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -37 -38 162 456 -85 281 -298 -59 -101 -492 13 125 -167 -45 110
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_4"
+        bias="159"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -36 10 -283 -158 347 -82 746 -24 -106 32 127 -53 -113 -342 -170
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_5"
+        bias="540"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -65 -70 72 347 197 -679 108 192 207 -15 -222 -26 48 80 476
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_6"
+        bias="-110"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        463 299 49 -252 -52 -314 277 0 -594 270 178 -127 -47 193 5
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_7"
+        bias="243"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -281 213 -395 -384 -50 373 -332 -112 470 -214 216 52 -23 424 226
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_8"
+        bias="-313"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -220 103 525 103 -332 -3 -49 -137 48 347 -590 54 -567 -107 -336
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_9"
+        bias="-125"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        100 -328 -46 97 -264 170 247 62 303 -274 27 -95 -157 -454 -176
+        "
+      />

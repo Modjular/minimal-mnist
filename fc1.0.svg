@@ -1,0 +1,150 @@
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_0"
+        bias="337"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        26 42 93 423 -133 -24 -252 -4 -20 -349
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_1"
+        bias="-174"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -102 -264 -415 358 -95 112 -66 -126 52 -91
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_2"
+        bias="-217"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        462 78 52 349 454 -145 31 -42 -80 354
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_3"
+        bias="231"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -424 234 153 227 210 -334 632 147 -317 91
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_4"
+        bias="205"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -83 -165 -262 204 -163 -142 -421 432 -345 139
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_5"
+        bias="-115"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -416 302 192 181 -417 350 -42 132 383 298
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_6"
+        bias="348"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -106 -530 -494 460 270 -10 26 446 12 -269
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_7"
+        bias="-25"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        39 -166 -178 55 131 -146 86 -26 -63 -53
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_8"
+        bias="223"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        99 48 86 -292 73 253 37 578 -133 -43
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_9"
+        bias="-38"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        176 -51 -327 174 145 -219 446 -119 416 -539
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_10"
+        bias="266"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        428 -379 76 10 115 -35 -99 -189 -331 324
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_11"
+        bias="-145"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -150 -155 57 -96 -148 -128 72 -68 -133 -4
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_12"
+        bias="-13"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        76 315 255 -147 371 -490 108 -243 106 128
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_13"
+        bias="246"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        -143 484 312 455 -358 -317 -98 -273 333 157
+        "
+      />
+      <feConvolveMatrix
+        in="SourceGraphic"
+        result="fc0.0.weight_14"
+        bias="265"
+        order="28"
+        preserveAlpha="true"
+        kernelMatrix="
+        22 -297 296 -113 269 -336 154 185 -282 191
+        "
+      />

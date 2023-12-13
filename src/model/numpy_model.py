@@ -31,7 +31,7 @@ class ReLU:
         """Creates a ReLU activation function."""
         pass
 
-    def __call__(self, x):
+    def __call__(self, x: np.ndarray):
         """Calculates using the ReLU activation function.
 
         Args:
@@ -49,7 +49,7 @@ class Sequential:
         """
         self.layers = layers
 
-    def __call__(self, x):
+    def __call__(self, x: np.ndarray):
         for layer in self.layers:
             x = layer(x)
         return x
@@ -71,7 +71,7 @@ class NumpyModel:
                                ReLU()])
         self.fc2 = Linear(second_layer, num_classes)
 
-    def __call__(self, x):
+    def __call__(self, x: np.ndarray):
         """Runs the input through the network.
 
         Args:

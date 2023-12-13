@@ -52,10 +52,8 @@ class Trainer:
         """
         print("Initializing training...")
         print(f"Results saved in {self.result_dir}")
-        train_loader = DataLoader(self.train_data, batch_size, shuffle=True,
-                                  pin_memory=True)
-        test_loader = DataLoader(self.test_data, batch_size, shuffle=True,
-                                 pin_memory=True)
+        train_loader = DataLoader(self.train_data, batch_size, shuffle=True, pin_memory=True)
+        test_loader = DataLoader(self.test_data, batch_size, shuffle=True, pin_memory=True)
         network = FCNetwork(784, 10, first_layer, second_layer, leaky)
         if torch.cuda.is_available():
             network.cuda()
@@ -136,9 +134,8 @@ class Trainer:
 
 if __name__ == '__main__':
     current_time_str = datetime.now().strftime('%Y-%m-%d-%H_%M_%S')
-    t = Trainer('E:\\Offline Docs\\Git\\minimal-mnist\\MNIST',
-                join("E:\\Offline Docs\\Git\\minimal-mnist\\work_dir\\",
-                     current_time_str))
+    t = Trainer('/Users/tony/Documents/Github/minimal-mnist/MNIST',
+                join("/Users/tony/Documents/Github/minimal-mnist/MNIST", current_time_str))
     t.train(50, 10, 15, (False, False, False), 'sgd',
             {'momentum': 0.9409782496856666,
              'lr': 0.0038795787201773}, 250)
