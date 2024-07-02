@@ -1,0 +1,39 @@
+<html>
+  <svg>
+    <filter
+      id="convolve1"
+      filterUnits="objectBoundingBox"
+      x="0%"
+      y="0%"
+      width="100%"
+      height="100%"
+    >
+      <feConvolveMatrix
+        order="3 3"
+        kernelMatrix="0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111"
+        edgeMode="none"
+      />
+    </filter>
+    <filter
+      id="convolve2"
+      filterUnits="objectBoundingBox"
+      x="0%"
+      y="0%"
+      width="100%"
+      height="100%"
+    >
+      <feConvolveMatrix
+        order="3 3"
+        kernelMatrix="0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111"
+        edgeMode="none"
+      />
+    </filter>
+  </svg>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Iris_germanica_%28Purple_bearded_Iris%29%2C_Wakehurst_Place%2C_UK_-_Diliff.jpg/470px-Iris_germanica_%28Purple_bearded_Iris%29%2C_Wakehurst_Place%2C_UK_-_Diliff.jpg"
+    style="filter: url(#convolve1)"
+  />
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Iris_germanica_%28Purple_bearded_Iris%29%2C_Wakehurst_Place%2C_UK_-_Diliff.jpg/470px-Iris_germanica_%28Purple_bearded_Iris%29%2C_Wakehurst_Place%2C_UK_-_Diliff.jpg"
+  />
+</html>
